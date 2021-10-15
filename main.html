@@ -1,6 +1,5 @@
 <!--was fallowed by this video https://www.youtube.com/watch?v=UB1O30fR-EE -->
 <!DOCTYPE html>
-hello
 <html>
     <head>
         <title>
@@ -8,6 +7,7 @@ hello
         </title>
     </head>
     <body>
+        <a href="blog.html">to my blog site!</a>
         <h1>
             <!--this is a commends-->
             this is a h1 text
@@ -20,13 +20,13 @@ hello
             this is another paragaph
         </p>
         <p>
-           <strong>Lorem</strong> ipsum dolor sit amet,
-            consectetur adipisicing elit. 
-            Autem vero tempora optio fugit a 
-            quod necessitatibus neque et ea, 
-            tempore laudantium natus, odio 
-            reprehenderit nobis accusantium 
-            accusamus, ipsum aperiam nesciunt.
+            one day I've met a girl,
+            who change my life and make it better. 
+            I used to call this girl <strong>My Love.</strong> 
+            one day we will have our own life togther, 
+            she don't know this yet,I think the 
+            reason is because she don't pay attion
+            on the easter egg I put in this file.
         </p>
         <p> 
            <a href="https://www.google.co.il/" target="_blank">parse here for google</a> 
@@ -51,7 +51,7 @@ hello
                 secound list item ol
             </li>
         </ol>
-        <!--Table-->
+        <!--Tables-->
         <table>
             <thead>
                 <th>name</th>
@@ -76,8 +76,86 @@ hello
                 </tr>
             </tbody>
         </table>
+        <br>
+        <hr>
+        <br>
         <!--Forms-->
-        <form action="process.php"></form>
+        <form action="process.php" method="post">
+            <br>
+            <div>
+                <label>First Name</label>
+                <input type="text" name="First-name"
+                placeholder="Enter your first name.">
+            </div>
+            <br>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="Last-name">
+            </div>
+            <br>
+            <div>
+                <label>Mail</label>
+                <input type="email" name="user Mail">
+            </div>
+            <br>
+            <div>
+                <label>Age</label>
+                <input type="number" name="age" value="30">
+            </div>
+            <br>
+            <div>
+                <label>What do you want to say about us?</label>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Birthday</label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+            <div>
+                <label>Gender</label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="none">None</option>
+                </select>
+            </div>
+            <br>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+        <br>
+        <!--Button-->
+        <button>Click me!</button>
+        <br>
+        <!--Image-->
+        <br>
+        <a href="main.html">
+            <img src="images/MyFirstSiteImg.png" 
+            alt="My MyFirstSiteImg" width="400">
+        </a>
+        <br>
+        <!--Quotations-->
+        <blockquote cite="https://en.wikipedia.org/wiki/World_Wide_Web">
+            The World Wide Web (WWW), 
+            commonly known as the Web,
+            is an information system where documents and
+            other web resources are identified by Uniform Resource Locators 
+            (URLs, such as https://example.com/),
+            which may be interlinked by hyperlinks,
+            and are accessible over the Internet.[1][2] 
+            The resources of the Web are transferred via
+            the Hypertext Transfer Protocol (HTTP),
+            may be accessed by users by a software application
+            called a web browser, and are published by a software
+            application called a web server. The World Wide Web
+            is not synonymous with the Internet, which pre-dated
+            the Web in some form by over two decades and upon the
+            technologies of which the Web is built.
+        </blockquote>
+        <p>The <abbr title="World Wide Web">WWW</abbr>
+            is awsome!</p>
+        <p></p>
         <div style="margin-top:500px"> </div>
     </body>
 </html>
