@@ -5,9 +5,27 @@
         <title>
                 this is a title text
         </title>
+        <style type="text/css">
+            #main-header{
+                text-align: center;
+                background-color: black;
+                color: blue;
+                padding: 10px;
+            }
+            #main-footer{
+                text-align: center;
+                font: size 18px; ;
+            }
+            #bodyid{
+                background-image: url("BackgroundImages/mainBackground.jpg");
+            }
+            </style>
     </head>
-    <body>
+    <body id=bodyid>
         <a href="blog.html">to my blog site!</a>
+        <h1> 
+            <header id="main-header">this is the main site</header>
+        </h1>
         <h1>
             <!--this is a commends-->
             this is a h1 text
@@ -155,7 +173,9 @@
         </blockquote>
         <p>The <abbr title="World Wide Web">WWW</abbr>
             is awsome!</p>
-        <p></p>
+        <footer  id="main-footer">
+            <p>Copyright &copy; 2021, My website</p>
+        </footer>
         <div style="margin-top:500px"> </div>
     </body>
 </html>
