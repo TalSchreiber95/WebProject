@@ -5,27 +5,26 @@
         <title>
                 this is a title text
         </title>
-        <style type="text/css">
-            #main-header{
-                text-align: center;
-                background-color: black;
-                color: blue;
-                padding: 10px;
-            }
-            #main-footer{
-                text-align: center;
-                font: size 18px; ;
-            }
-            #bodyid{
-                background-image: url("BackgroundImages/mainBackground.jpg");
-            }
-            </style>
+        <link rel="stylesheet" type="text/css" 
+        href="css/style.css">
     </head>
-    <body id=bodyid>
-        <a href="blog.html">to my blog site!</a>
+    <body class=bodyid>
         <h1> 
-            <header id="main-header">this is the main site</header>
+            <header class="main-header">
+                Tal's website</header>
         </h1>
+        <div class="links">
+            <ul>
+                <li><a href="blog.html">Blog site!</a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/tal-schreiber">
+                    Linkedin profile!</a>
+                </li>
+                <li><a href="https://github.com/TalSchreiber95">
+                    my github profile!</a>
+                </li>
+            </ul>
+        </div>
         <h1>
             <!--this is a commends-->
             this is a h1 text
@@ -37,15 +36,17 @@
         <p>
             this is another paragaph
         </p>
-        <p>
-            one day I've met a girl,
-            who change my life and make it better. 
-            I used to call this girl <strong>My Love.</strong> 
-            one day we will have our own life togther, 
-            she don't know this yet,I think the 
-            reason is because she don't pay attion
-            on the easter egg I put in this file.
-        </p>
+        <div class=container>
+            <p>
+                one day I've met a girl,
+                who change my life and make it better. 
+                I used to call this girl <strong>My Love.</strong> 
+                one day we will have our own life togther, 
+                she don't know this yet,I think the 
+                reason is because she don't pay attion
+                on the easter egg I put in this file.
+            </p>
+        </div>
         <p> 
            <a href="https://www.google.co.il/" target="_blank">parse here for google</a> 
         </p>
@@ -98,7 +99,7 @@
         <hr>
         <br>
         <!--Forms-->
-        <form action="process.php" method="post">
+        <form class="myform" action="process.php" method="post">
             <br>
             <div>
                 <label>First Name</label>
@@ -140,16 +141,16 @@
                 </select>
             </div>
             <br>
-            <input type="submit" name="submit" value="Submit">
+            <input type="submit" class="button" name="submit" value="Submit">
         </form>
         <br>
         <!--Button-->
-        <button>Click me!</button>
+        <button class="button">Click me!</button>
         <br>
         <!--Image-->
         <br>
         <a href="main.html">
-            <img src="images/MyFirstSiteImg.png" 
+            <img src="css/images/MyFirstSiteImg.png" 
             alt="My MyFirstSiteImg" width="400">
         </a>
         <br>
@@ -173,7 +174,7 @@
         </blockquote>
         <p>The <abbr title="World Wide Web">WWW</abbr>
             is awsome!</p>
-        <footer  id="main-footer">
+        <footer  class="main-footer">
             <p>Copyright &copy; 2021, My website</p>
         </footer>
         <div style="margin-top:500px"> </div>

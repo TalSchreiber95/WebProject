@@ -7,27 +7,25 @@
    by Tal Schreiber">
    <meta name="keywords" content="web design blog,
    web dev blog, Tal's blog"> 
-   <style type="text/css">
-    #main-header{
-        text-align: center;
-        background-color: black;
-        color: red;
-        padding: 10px;
-    }
-    #main-footer{
-        text-align: center;
-        font: size 18px; ;
-    }
-    #bodyid{
-        background-image: url("BackgroundImages/blogImage.jpg");
-    }
-    </style>
+   <link rel="stylesheet" type="text/css"
+    href="css/styleblog.css">
 </head>
-<body id="bodyid">
-    <a href="main.html">to my main site!</a>
-    <header id="main-header">
+<body class="bodyid">
+    <header class="main-header">
         <h1>My blog site</h1>
     </header>
+    <div class="bloglinks">
+        <ul>
+            <li><a href="main.html">Main site!</a>
+            </li>
+            <li><a href="https://www.linkedin.com/in/tal-schreiber">
+                Linkedin profile!</a>
+            </li>
+            <li><a href="https://github.com/TalSchreiber95">
+                my github profile!</a>
+            </li>
+        </ul>
+    </div>
     <section>
         <article>
             <h1>Blog post one</h1>
@@ -63,14 +61,16 @@
     <aside>
         <h3>Categories</h3>
         <nav>
+        <div class= categories>
             <ul>
                 <li><a href="#">Categorie 1</a></li>
                 <li><a href="#">Categorie 2</a></li>
                 <li><a href="#">Categorie 3</a></li>
             </ul>
+        </div>
         </nav>
     </aside>
-    <footer  id="main-footer">
+    <footer  class="main-footer">
         <p>Copyright &copy; 2021, My website</p>
     </footer>
 </body>

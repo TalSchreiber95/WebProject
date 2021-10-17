@@ -1,0 +1,75 @@
+a:hover{
+    color: red;
+}
+a:active{
+    color:green
+}
+.button:active{
+    color: blue;
+    background-color: darkorange;
+}
+.button:hover{
+    background-color: darkgreen;
+    color: red;
+}
+.links{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+.links li{
+    display: inline;
+}
+.links a{
+    color:white;
+    text-decoration: none;
+    font: size 18px;
+    padding-right: 15px;
+}
+.links :hover{
+    color: blue;
+}
+.button{
+    background-color: black;
+    color: white;
+    padding:10px;
+    border:orangered;
+}
+.main-header{
+    text-align: center;
+    background-color: coral;
+    color: blue;
+    padding: 40px;
+    width:auto;  
+    /* margin: 0; */
+    /* border: 5px red solid; */
+}
+.main-footer{
+    text-align: center;
+    font: size 18px; ;
+}
+.bodyid{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.4em;
+    background-image: url("BackgroundImages/mainBackground.jpg");
+}
+.container{
+    color:black;
+    width: 500px;
+    margin: auto;
+}
+.myform{
+    padding: 20px;
+}
+.myform label{
+    display:block;
+    size: 50px;
+}
+.myform input[type="text"], .myform textarea{
+    padding: 8px;
+    width: 100%;
+}
