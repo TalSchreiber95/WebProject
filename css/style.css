@@ -45,8 +45,8 @@ a:active{
     background-color: coral;
     color: blue;
     padding: 40px;
-    width:auto;  
-    /* margin: 0; */
+    width:auto;
+    margin: auto;
     /* border: 5px red solid; */
 }
 .main-footer{
