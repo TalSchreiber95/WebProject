@@ -59,6 +59,10 @@ a:active{
     color: blue;
     padding: 30px;
     width: 350px;
-    height: 450px;
+    height: 470px;
     margin: auto;
+}
+.main-footer{
+    text-align: center;
+    font: size 18px; ;
 }

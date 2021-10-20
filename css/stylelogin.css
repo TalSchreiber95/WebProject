@@ -26,12 +26,7 @@ a:active{
 .links :hover{
     color: blue;
 }
-.button{
-    background-color: black;
-    color: white;
-    padding:10px;
-    border:orangered;
-}
+
 .login-header{
     text-align: center;
     background-color: coral;
@@ -39,8 +34,6 @@ a:active{
     padding: 10px;
     width:auto;
     margin: auto;
-    /* height: 131px; */
-    /* border: 5px red solid; */
 }
 .main-footer{
     text-align: center;
@@ -51,28 +44,12 @@ a:active{
     line-height: 1.4em;
     background-image: url("BackgroundImages/mainBackground.jpg");
 }
-.container{
-    color:black;
-    width: 500px;
-    margin: auto;
-}
-.myform{
-    padding: 20px;
-}
-.myform label{
-    display:block;
-    size: 50px;
-}
-.myform input[type="text"], .myform textarea{
-    padding: 8px;
-    width: 100%;
-}
 .loginBlock{
     text-align: center;
     background-color: thistle;
     color: blue;
     padding: 30px;
     width: 350px;
-    height: 200px;
+    height: 215px;
     margin: auto;
 }
