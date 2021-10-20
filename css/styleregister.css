@@ -40,38 +40,25 @@ a:active{
     padding:10px;
     border:orangered;
 }
-.main-header{
+.register-header{
     text-align: center;
     background-color: coral;
     color: blue;
     padding: 10px;
     width:auto;
     margin: auto;
-    /* height: 131px; */
-    /* border: 5px red solid; */
-}
-.main-footer{
-    text-align: center;
-    font: size 18px; ;
 }
 .bodyid{
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.4em;
     background-image: url("BackgroundImages/mainBackground.jpg");
 }
-.container{
-    color:black;
-    width: 500px;
+.registerBlock{
+    text-align: center;
+    background-color: thistle;
+    color: blue;
+    padding: 30px;
+    width: 350px;
+    height: 400px;
     margin: auto;
-}
-.myform{
-    padding: 20px;
-}
-.myform label{
-    display:block;
-    size: 50px;
-}
-.myform input[type="text"], .myform textarea{
-    padding: 8px;
-    width: 100%;
 }

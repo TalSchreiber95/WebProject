@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register site</title>
+    <link rel="stylesheet" href="css/styleregister.css">
+</head>
+<body>
+    <div class="register-header">
+        <h1> 
+            <header>
+                Register </header>
+        </h1>
+        <div class="links">
+            <ul>
+                <li><a href="main.html">Main site!</a>
+                </li>
+                <li><a href="blog.html">Blog site!</a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/tal-schreiber">
+                    Linkedin profile!</a>
+                </li>
+                <li><a href="https://github.com/TalSchreiber95">
+                    my github profile!</a>
+                </li>
+                <li><a href="login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <div class="registerBlock">
+         <!--Forms-->
+         <form class="myform" action="process.php" method="post">
+            <div>
+                <label>User Name</label>
+                <input type="text" name="username"
+                placeholder="Enter your user name.">
+            </div>
+            <br>
+            <div>
+                <label>First Name</label>
+                <input type="text" name="First-name"
+                placeholder="Enter your first name.">
+            </div>
+            <br>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="Last-name">
+            </div>
+            <br>
+            <div>
+                <label>Mail</label>
+                <input type="email" name="user Mail">
+            </div>
+            <br>
+            <div>
+                <label>Age</label>
+                <input type="number" name="age" value="30">
+            </div>
+            <br>
+            <div>
+                <label>What do you want to say about us?</label>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Birthday</label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+            <div>
+                <label>Gender</label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="none">None</option>
+                </select>
+            </div>
+            <br>
+            <input type="submit" class="button" name="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

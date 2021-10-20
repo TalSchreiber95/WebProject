@@ -27,12 +27,13 @@ a:active{
 .bloglinks :hover{
     color: blue;
 }
-.main-header{
+.blog-header{
     text-align: center;
     background-color: coral;
     color: blue;
     padding: 10px;
-    border-left: 5px red solid;
+    width:auto;
+    margin: auto;
 }
 .main-footer{
     text-align: center;
@@ -40,7 +41,8 @@ a:active{
 }
 .bodyid{
     font-family: 'Times New Roman', Times, serif;
-    background-image: url("BackgroundImages/blogImage.jpg");
+    line-height: 1.4em;
+    background-image: url("BackgroundImages/mainBackground.jpg");
 }
 
 .categories ul{
