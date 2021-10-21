@@ -5,14 +5,31 @@ a:hover{
 a:active{
     color:green
 }
-.button:active{
-    color: blue;
-    background-color: darkorange;
+input:hover{
+    color:red;
+    background-color: black;
 }
-.button:hover{
-    background-color: darkgreen;
-    color: red;
+select:hover{
+    color:red;
+    background-color: black;
 }
+textarea:hover{
+    color:red;
+    background-color: black;
+}
+input:active{
+    color:blue;
+    background-color: black;
+}
+select:active{
+    color:blue;
+    background-color: black;
+}
+textarea:active{
+    color:blue;
+    background-color: black;
+}
+
 .links{
     width: 80%;
     margin: auto;
@@ -33,12 +50,6 @@ a:active{
 }
 .links :hover{
     color: blue;
-}
-.button{
-    background-color: black;
-    color: white;
-    padding:10px;
-    border:orangered;
 }
 .register-header{
     text-align: center;

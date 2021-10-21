@@ -4,7 +4,7 @@
     <title>Login site</title>
     <link rel="stylesheet" href="css/stylelogin.css">
 </head>
-<body class=bodyid>
+<body id=bodyid>
     <div class="login-header">
         <h1> 
             <header>
@@ -29,24 +29,31 @@
     </div>
     <br>
     <div class="loginBlock">
+        <form id="loginForm">
+            <div id="msg"></div>
             <div>
                 <label><strong>Email or username</strong></label>
                 <br>
-                <input type="text" name="username" class="input"
-                placeholder="Enter your email or username.">
+                <input type="text" id="Uinput"
+                placeholder="Enter email or username." >
             </div>
             <label><strong>Password</strong></label><br>
-            <input type="text" name="password" class="input"
-            placeholder="Enter your user password.">
-        <br>
-        <input type="submit" class="login-in" name="login in" value="Login in">
+            <input type="text" id="Pinput"
+            placeholder="Enter user password.">
+            <br>
+            <input class="login-in" type="submit" value="Login in">
+        </form>
         <br><br>
         don't have account yet? <br><a href="register.html">Register here</a>
         <footer  class="main-footer">
             <p>Copyright &copy; 2021, My website</p>
         </footer>
+        <br>
+        <div id=divid>
+            <ul id="users"></ul>
+        </div>
     </div>
     <div style="margin-top:500px"> </div>
-    
+    <script type="text/javascript" src="javascript/login.js"></script>
 </body>
 </html>
